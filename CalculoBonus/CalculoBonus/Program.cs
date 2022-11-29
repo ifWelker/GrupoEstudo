@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Http.Json;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
