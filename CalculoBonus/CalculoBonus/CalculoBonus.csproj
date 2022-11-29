@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <Compile Remove="Regras\**" />
+    <Content Remove="Regras\**" />
+    <EmbeddedResource Remove="Regras\**" />
+    <None Remove="Regras\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Regras\" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
 </Project>
