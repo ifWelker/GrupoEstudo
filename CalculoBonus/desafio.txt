@@ -1,0 +1,25 @@
+- Funcionario
+ - Id
+ - Nome
+ - Departamento (Tecnologia, Negocio, Produto, Vendas e Atendimento)
+ - Cargo (Jr, Pleno, Senior, Especialista, Coordenador, Gerente e Diretor)
+ - Salario (duas casas decimais)
+
+Cadastrar Funcionário
+Atualizar Funcionario
+Demitir Funcionario
+
+Calcular Bonus
+ -> Para cargos de Jr até Senior, não tem bonus
+ -> Para cargos de Especialista, Coordenador, bonus 3 a 5 salarios, deduzindo o PLR
+ -> Para cargos de Gerente, bonus de 4 a 8 salarios, deduzindo o PLR
+ -> Para cargos de Diretor, bonus de 6 a 12 salarios, deduzindo o PLR
+
+Calcular PLR
+ -> Para todos os cargos é de 2,2 salários, limitado a 35.000
+
+Calcular Salario Anual
+ -> Salario Anual é composto por salario bruto somando salario ao longo do ano, bonus, PLR, ferias e 13°
+
+Calcular o Reajuste Salario
+ -> Receber um percentual e calcular o reajuste
